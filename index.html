@@ -48,6 +48,9 @@
           <div class="col-lg-6 py-3 wow fadeInUp">
             <h1 class="mb-4">Desarrollo a ajustado a tus requerimientos</h1>
             <p class="text-lg mb-5">Automatizacion RPA, Desarrollo de Software, Asesoria Tecnica Personalizada</p>
+            <div class="img-place mb-3" style="width: 7em;">
+              <img src="assets/img/LogoPython.png" alt="Tecnologia Primaria">
+            </div>
           </div>
           <div class="col-lg-6 py-3 wow zoomIn">
             <div class="img-place">
@@ -114,6 +117,9 @@
             <h2 class="title-section">Equipo <span class="marked">Dinamico</span> enfocado en diseñar tus sueños.</h2>
             <div class="divider"></div>
             <p>Realizamos Desarrollo y Automatizacion a pequeñas, medianas y grandes empresas!</p>
+            <div class="img-place" style="width: 14em;">
+              <img src="assets/img/LogoRocketBot.png" alt="Tecnologia Secundaria">
+            </div>
           </div>
         </div>
       </div> 
@@ -154,17 +160,21 @@
             <h2 class="title-section">Dudas?, Dejanos un Correo!</h2>
             <div class="divider"></div>
             
-            <form action="#" method="POST" enctype="application/x-www-form-urlencoded" id="formularioContacto">
+            <form action="https://formsubmit.co/devspatagonia@gmail.com" method="POST">
               <div class="py-2">
-                <input type="text" class="form-control" placeholder="Nombre Completo" id="nombreCompleto">
+                <input type="text" class="form-control" placeholder="Nombre Completo" name="nombreCompleto">
               </div>
               <div class="py-2">
-                <input type="text" class="form-control" placeholder="Correo" id="correo">
+                <input type="email" class="form-control" placeholder="Correo" name="correo">
               </div>
               <div class="py-2">
-                <textarea rows="6" class="form-control" placeholder="Ingrese Consulta" id="mensajeFormulario"></textarea>
+                <textarea rows="6" class="form-control" placeholder="Ingrese Consulta" name="consulta"></textarea>
               </div>
               <button type="submit" class="btn btn-primary rounded-pill mt-4">Enviar Consulta</button>
+
+              <input type="hidden" name="_next" value="https://patagoniadevs.com/">
+              <input type="hidden" name="_captcha" value="false">
+
             </form>
           </div>
         </div>
@@ -175,19 +185,7 @@
       <div class="container-fluid">
         <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 justify-content-center">
           <div class="item wow zoomIn">
-            <img src="../assets/img/clients/airbnb.png" alt="">
-          </div>
-          <div class="item wow zoomIn">
-            <img src="../assets/img/clients/google.png" alt="">
-          </div>
-          <div class="item wow zoomIn">
-            <img src="../assets/img/clients/stripe.png" alt="">
-          </div>
-          <div class="item wow zoomIn">
-            <img src="../assets/img/clients/paypal.png" alt="">
-          </div>
-          <div class="item wow zoomIn">
-            <img src="../assets/img/clients/mailchimp.png" alt="">
+            <img src="assets/img/clients/airbnb.png" alt="">
           </div>
         </div>
       </div> <!-- .container-fluid -->
@@ -201,29 +199,28 @@
           <h3>Patagonia<span class="text-primary">Devs.</span></h3>
         </div>
         <div class="col-lg-3 py-3">
-          <h5>Quick Links</h5>
+          <h5>Enlaces de Interes</h5>
           <ul class="footer-menu">
-            <li><a href="#">How it works</a></li>
-            <li><a href="#">Security</a></li>
-            <li><a href="#">Pricing</a></li>
-            <li><a href="#">Resources</a></li>
-            <li><a href="#">Report a Bug</a></li>
+            <li><a href="https://owasp.org/www-project-top-ten/">Seguridad OWASP top ten</a></li>
           </ul>
         </div>
         <div class="col-lg-3 py-3">
-          <h5>About Us</h5>
+          <h5>Acerca de Nosotros</h5>
           <ul class="footer-menu">
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Jobs</a></li>
-            <li><a href="#">Our Teams</a></li>
-            <li><a href="#">Testimonials</a></li>
-            <li><a href="#">News & Press</a></li>
+            <li><a href="https://www.linkedin.com/in/bladymir-vogt-cumian-873a1071/">Bladymir Vogt</a></li>
+            <li><a href="https://www.linkedin.com/in/patricio-leon-ormazabal/">Patricio León</a></li>
           </ul>
         </div>
         <div class="col-lg-3 py-3">
           <h5>Subscribete!</h5>
-          <form action="#">
+          <form action="https://formsubmit.co/devspatagonia@gmail.com" method="POST">
             <input type="text" class="form-control" placeholder="Ingrese su Correo.">
+
+            <button type="submit" class="btn btn-primary rounded-pill mt-4">Subscribirse Ahora!</button>
+            
+            
+            <input type="hidden" name="_next" value="https://patagoniadevs.com/">
+            <input type="hidden" name="_captcha" value="false">
           </form>
 
           <div class="sosmed-button mt-4">
